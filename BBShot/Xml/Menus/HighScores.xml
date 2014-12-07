@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HighScoresMenu>
+    <Axis>Y</Axis>
+    <Id>Xml/Menus/HighScores.xml</Id>
+    <Items>
+        <MenuItem>
+            <LinkType>Menu</LinkType>
+            <LinkID>Xml/Menus/MainMenu.xml</LinkID>
+            <Image>
+                <Text>Back</Text>
+            </Image>
+        </MenuItem>
+    </Items>
+
+    <Effects>
+        <FadeEffect>
+            <FadeSpeed>2</FadeSpeed>
+        </FadeEffect>
+    </Effects>
+</HighScoresMenu>

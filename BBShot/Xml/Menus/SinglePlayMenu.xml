@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Axis>Y</Axis>
+    <Items>
+        <MenuItem>
+            <LinkType>Screen</LinkType>
+            <LinkID>GameplayScreen</LinkID>
+            <Parameter>2</Parameter>
+            <Image>
+                <Text>2 Minutes</Text>
+            </Image>
+        </MenuItem>
+        <MenuItem>
+            <LinkType>Screen</LinkType>
+            <LinkID>GameplayScreen</LinkID>
+            <Parameter>5</Parameter>
+            <Image>
+                <Text>5 Minutes</Text>
+            </Image>
+        </MenuItem>
+        <MenuItem>
+            <LinkType>Screen</LinkType>
+            <LinkID>GameplayScreen</LinkID>
+            <Parameter>15</Parameter>
+            <Image>
+                <Text>15 Minutes</Text>
+            </Image>
+        </MenuItem>
+        <MenuItem>
+            <LinkType>Menu</LinkType>
+            <LinkID>Xml/Menus/PlayMenu.xml</LinkID>
+            <Image>
+                <Text>Back</Text>
+            </Image>
+        </MenuItem>
+    </Items>
+    <Effects>
+        <FadeEffect>
+            <FadeSpeed>2</FadeSpeed>
+        </FadeEffect>
+    </Effects>
+</Menu>

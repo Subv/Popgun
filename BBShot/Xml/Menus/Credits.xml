@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Axis>Y</Axis>
+  <Items>
+    <MenuItem>
+      <Image>
+        <Text>Credits</Text>
+      </Image>
+    </MenuItem>
+    <MenuItem>
+      <Image>
+        <Text>Lead Programmer - Sebastian Valle</Text>
+      </Image>
+    </MenuItem>
+    <MenuItem>
+      <Image>
+        <Text>Lead Designer - Daniel Barrios</Text>
+      </Image>
+    </MenuItem>
+    <MenuItem>
+      <LinkType>Menu</LinkType>
+      <LinkID>Xml/Menus/MainMenu.xml</LinkID>
+      <Image>
+        <Text>Back</Text>
+      </Image>
+    </MenuItem>
+  </Items>
+  <Effects>
+    <FadeEffect>
+      <FadeSpeed>2</FadeSpeed>
+    </FadeEffect>
+  </Effects>
+</Menu>

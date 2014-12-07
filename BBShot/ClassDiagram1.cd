@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Popgun.Bubble">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="BottomLeft" Hidden="true" />
+      <Field Name="BottomRight" Hidden="true" />
+      <Field Name="Left" Hidden="true" />
+      <Field Name="MovementStep" Hidden="true" />
+      <Field Name="Right" Hidden="true" />
+      <Field Name="TopLeft" Hidden="true" />
+      <Field Name="TopRight" Hidden="true" />
+      <Field Name="VerticalTolerance" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Popgun.Bubble.ColorIndices" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Bubble.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgQAEAAIIAAAAlAkAAAAIICAQAAAABAIKACAgCAUAMQ=</HashCode>
+      <FileName>Bubble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.HighScoreSaveForm" Collapsed="true">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAABgAAACAAAACAAAIAAAAEEAAAAAAAAA=</HashCode>
+      <FileName>HighScoreSaveForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Image">
+    <Position X="8.25" Y="13.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgQAGAAAAgAAA4IgMAYAAAACAAIAABBAAAIAiAgSAIY=</HashCode>
+      <FileName>Image.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Effects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Popgun.Player">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Field Name="CannonImageSwitchTime" Hidden="true" />
+      <Field Name="ImageSwitchTime" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgQAGAAAAAAghgggAAAAAAAAAAAAABiAAMAAAAIQAgQ=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Bullet" />
+      <Field Name="NextBullet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Popgun.Popgun" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAAAwAAAAAAAAAAAAAAIAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Popgun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Program" Collapsed="true">
+    <Position X="20" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.ScreenManager">
+    <Position X="14" Y="12.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACQAEAAAAgAAAgAAAIAAAAIAAABAACABQAAEAAQAAAQ=</HashCode>
+      <FileName>ScreenManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CurrentScreen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Popgun.Effects.FadeEffect">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Effects\FadeEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Effects.ImageEffect">
+    <Position X="5.75" Y="9.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAABQ=</HashCode>
+      <FileName>Effects\ImageEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Popgun.Input.InputManager" Collapsed="true">
+    <Position X="20" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAggAAAAAAAAAAgABEABAAQAgAABBAAAA=</HashCode>
+      <FileName>Input\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Menus.HighScoresMenu">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Popgun.Menus.HighScoresMenu.Record" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Menus\HighScoresMenu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Menus\HighScoresMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Menus.Menu">
+    <Position X="13" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAAAAAGwAAAAQAAACAAABAAAAAABAAAAAAAgU=</HashCode>
+      <FileName>Menus\Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Items" />
+      <Field Name="Effects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Popgun.Menus.MenuItem">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Popgun.Menus.MenuItem.LinkTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Menus\MenuItem.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAwABAAAAAAIAAAAAA=</HashCode>
+      <FileName>Menus\MenuItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Image" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Popgun.Menus.MenuManager">
+    <Position X="10" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAogAAAAAAAAAAAAAAAAABAAAAAAQAAAQ=</HashCode>
+      <FileName>Menus\MenuManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CurrentMenu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Popgun.Menus.MultiplayerJoinMenu">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <Members>
+      <Field Name="BroadcastRequestFrequency" Hidden="true" />
+      <Field Name="ClientPort" Hidden="true" />
+      <Field Name="ServerListClearFrequency" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AARAEAAAIAAAIABAAAAAAAAABAACAAAAAJBBQiAAAAQ=</HashCode>
+      <FileName>Menus\MultiplayerJoinMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Net.ClientSocket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAUAAAAEAAAAAAAAAAAAAAACEAAxAAAEA=</HashCode>
+      <FileName>Net\ClientSocket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Popgun.Net.Packet" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEAgAAAAAAAAAAAAAAAAAABAACQAAQAAQAAQ=</HashCode>
+      <FileName>Net\Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Net.ServerSocket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Popgun.Net.ServerSocket.SocketAcceptedDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Net\ServerSocket.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAUAAAAEAABBAAAKAQAAAAAAAAAxAAAAA=</HashCode>
+      <FileName>Net\ServerSocket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.214" Collapsed="true" />
+  </Class>
+  <Class Name="Popgun.Screens.GameScreen">
+    <Position X="9" Y="8.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAgAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screens\Base\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Screens.GameplayScreen">
+    <Position X="5.5" Y="2.25" Width="2.25" />
+    <Members>
+      <Field Name="BroadcastHeader" Hidden="true" />
+      <Field Name="BroadcastSearchRequest" Hidden="true" />
+      <Field Name="BroadcastSearchResponse" Hidden="true" />
+      <Field Name="BubbleHorizontalOffset" Hidden="true" />
+      <Field Name="BubbleVerticalOffset" Hidden="true" />
+      <Field Name="DefaultBroadcastPort" Hidden="true" />
+      <Field Name="DefaultGamePort" Hidden="true" />
+      <Field Name="GamePacketHeader" Hidden="true" />
+      <Field Name="MinDestroyedBubbles" Hidden="true" />
+      <Field Name="NewBubblesSpawnTime" Hidden="true" />
+      <Field Name="NumHorizontalBubbles" Hidden="true" />
+      <Field Name="NumVerticalBubbles" Hidden="true" />
+      <Field Name="OddBubbleOffset" Hidden="true" />
+      <Field Name="TimeBasedBubbleSpawn" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>RAwgkIAIAhAAogRICARAIBAggUCDDRhShAIEAbC8EAY=</HashCode>
+      <FileName>Screens\GameplayScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Socket" />
+      <Field Name="Player" />
+      <Field Name="BubbleGraph" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="AllBubbles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Popgun.Screens.SplashScreen">
+    <Position X="11" Y="10.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screens\SplashScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Image" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Popgun.Screens.TitleScreen">
+    <Position X="8.75" Y="10.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAQ=</HashCode>
+      <FileName>Screens\TitleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Popgun.Serialization.Serializer&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAA=</HashCode>
+      <FileName>Serialization\Serializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Popgun.Net.ISocket" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>Net\ISocket.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

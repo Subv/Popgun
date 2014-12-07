@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Axis>Y</Axis>
+  <Items>
+    <MenuItem>
+      <LinkType>Menu</LinkType>
+      <LinkID>Xml/Menus/SinglePlayMenu.xml</LinkID>
+      <Image>
+        <Text>Single Player</Text>
+      </Image>
+    </MenuItem>
+    <MenuItem>
+      <LinkType>Menu</LinkType>
+      <LinkID>Xml/Menus/MultiplayerMenu.xml</LinkID>
+      <Image>
+        <Text>Multi Player</Text>
+      </Image>
+    </MenuItem>
+    <MenuItem>
+      <LinkType>Menu</LinkType>
+      <LinkID>Xml/Menus/MainMenu.xml</LinkID>
+      <Image>
+        <Text>Back</Text>
+      </Image>
+    </MenuItem>
+  </Items>
+
+  <Effects>
+    <FadeEffect>
+      <FadeSpeed>2</FadeSpeed>
+    </FadeEffect>
+  </Effects>
+</Menu>

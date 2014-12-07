@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MultiplayerJoinMenu>
+  <Axis>Y</Axis>
+  <Id>Xml/Menus/GamesList.xml</Id>
+  <Items>
+    <MenuItem>
+        <LinkType>EnterIP</LinkType>
+        <Image>
+            <Text>Enter Manual IP</Text>
+        </Image>
+    </MenuItem>
+    <MenuItem>
+      <LinkType>Menu</LinkType>
+      <LinkID>Xml/Menus/MultiplayerMenu.xml</LinkID>
+      <Image>
+        <Text>Back</Text>
+      </Image>
+    </MenuItem>
+  </Items>
+
+  <Effects>
+    <FadeEffect>
+      <FadeSpeed>2</FadeSpeed>
+    </FadeEffect>
+  </Effects>
+</MultiplayerJoinMenu>
